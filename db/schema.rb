@@ -384,6 +384,7 @@ ActiveRecord::Schema.define(version: 20150405053726) do
 
   create_table "tags", force: true do |t|
     t.string "name"
+    t.integer  "taggings_count"
   end
 
   add_index "tags", ["name"], name: "index_tags_on_name", unique: true, using: :btree
