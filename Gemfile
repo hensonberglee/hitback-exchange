@@ -25,7 +25,7 @@ gem 'aasm', '~> 3.4.0'
 gem 'amqp', '~> 1.3.0'
 gem 'bunny', '~> 1.2.1'
 gem 'cancancan'
-gem 'enumerize'
+gem 'enumerize', '1.0.0'
 gem 'datagrid'
 gem 'acts-as-taggable-on'
 gem 'kaminari'
@@ -89,7 +89,7 @@ group :development, :test do
 end
 
 group :test do
-  gem 'database_cleaner'
+  gem 'database_cleaner', '~> 1.2.0'
   gem 'mocha', :require => false
   gem 'shoulda-matchers'
   gem 'capybara'
